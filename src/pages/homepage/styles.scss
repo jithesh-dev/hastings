@@ -1,0 +1,31 @@
+@import 'common/globalVariables.scss';
+.home__content {
+  //
+  padding: 2rem 0;
+  .home__ctaContainer {
+    text-align: center;
+    margin-bottom: 2rem;
+    .button {
+      margin-bottom: 1rem;
+    }
+    .link {
+      margin-bottom: 2rem;
+    }
+  }
+  main {
+    @media (min-width: $desktop-width) {
+      margin-right: 2rem;
+    }
+  }
+  aside {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    @media (min-width: $desktop-width) {
+      max-width: 250px;
+    }
+  }
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
+}

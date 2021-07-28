@@ -1,0 +1,8 @@
+@import 'common/globalVariables.scss';
+.navbar {
+  width: 100%;
+  padding: 1rem 0.1rem;
+  @media (min-width: $desktop-width) {
+    padding: 0.5rem 0.1rem;
+  }
+}

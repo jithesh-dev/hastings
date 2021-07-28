@@ -1,10 +1,12 @@
 import React from 'react';
+import HomePage from 'pages/homepage/index';
+import Navbar from 'components/molecules/Navbar';
 
 const App = () => {
   return (
-    <div>
-      <h1>Yejjjaathi vand</h1>This is a React dsddf sf sdf sdfs
-    </div>
+    <>
+      <HomePage />
+    </>
   );
 };
 

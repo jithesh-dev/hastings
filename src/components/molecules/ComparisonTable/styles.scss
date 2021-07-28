@@ -1,0 +1,49 @@
+@import 'common/globalVariables.scss';
+
+.comparisonTable {
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  table {
+    width: 100%;
+    background-color: #fff;
+
+    border-collapse: collapse;
+  }
+  .comparisonTable__checklist {
+    text-align: center;
+  }
+  .comparisonTable__tick {
+    width: 15px;
+    @media (min-width: $desktop-width) {
+      width: 15px;
+    }
+  }
+
+  thead {
+    tr {
+      // height: 3rem;
+      th {
+        padding: 1.5rem 0.5rem;
+        @media (min-width: $desktop-width) {
+          padding: 1.5rem 2rem;
+        }
+      }
+    }
+  }
+
+  tbody {
+    border-top: 2px solid $theme__darkblue;
+    tr {
+      td {
+        padding: 1rem;
+        @media (min-width: $desktop-width) {
+          padding: 2rem;
+        }
+      }
+      &:nth-child(odd) {
+        background-color: #fafafa;
+      }
+    }
+  }
+}

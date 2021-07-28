@@ -1,0 +1,21 @@
+@import 'common/globalVariables.scss';
+
+.infoLinks {
+  background-color: #fff;
+  padding-bottom: 1rem;
+  border-radius: 4px;
+  .infoLinks__title {
+    text-align: center;
+    background-color: $theme__darkblue;
+    color: #fff;
+    line-height: 2.5rem;
+    border-radius: 4px 4px 0 0;
+  }
+  ul {
+    list-style: none;
+    padding: 0 1rem;
+    li {
+      margin-bottom: 1rem;
+    }
+  }
+}
